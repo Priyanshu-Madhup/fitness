@@ -10,6 +10,6 @@ services:
       - key: APP_ENV
         value: production
       - key: ALLOWED_ORIGINS
-        value: https://your-frontend.vercel.app  # update after deploying frontend
+        value: https://fitness-six-psi.vercel.app
       - key: PYTHON_VERSION
         value: 3.12.0

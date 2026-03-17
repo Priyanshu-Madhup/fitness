@@ -11,6 +11,8 @@ class Settings(BaseSettings):
     app_env: str = "development"
     allowed_origins: str = "http://localhost:3000"
     port: int = int(os.environ.get("PORT", 8000))
+    email_address: str = ""
+    email_app_password: str = ""
 
     @property
     def cors_origins(self) -> list[str]:
