@@ -38,6 +38,12 @@ An AI-powered full-stack fitness web app that generates personalised weekly work
 
 FitAI is built with **n8n automation** in mind. Every time a fitness plan is generated, the FastAPI backend can fire a webhook that triggers an n8n workflow — enabling powerful no-code / low-code automations without changing any backend code.
 
+### 📧 Email Preview
+
+Here's what the auto-generated plan email looks like when received:
+
+![FitAI Plan Email Preview](screenshots/email-preview.jpg)
+
 ### What you can automate with n8n
 
 | Workflow | Description |
