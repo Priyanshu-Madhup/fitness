@@ -58,4 +58,28 @@ code {
   .page-container {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8;
   }
+
+  /* Rendered HTML from LLM */
+  .plan-content {
+    @apply text-sm text-gray-700 dark:text-gray-300 leading-relaxed;
+  }
+  .plan-content h3 {
+    @apply text-sm font-semibold text-gray-900 dark:text-gray-100 mb-2;
+  }
+  .plan-content ul {
+    @apply space-y-1.5 list-none pl-0;
+  }
+  .plan-content li {
+    @apply flex gap-2 items-start;
+  }
+  .plan-content li::before {
+    content: '▸';
+    @apply text-green-500 font-bold shrink-0 mt-px;
+  }
+  .plan-content strong {
+    @apply font-semibold text-gray-900 dark:text-gray-100;
+  }
+  .plan-content p {
+    @apply mb-2;
+  }
 }
