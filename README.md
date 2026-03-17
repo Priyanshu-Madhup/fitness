@@ -44,6 +44,12 @@ Here's what the auto-generated plan email looks like when received:
 
 ![FitAI Plan Email Preview](screenshots/email-preview.jpg)
 
+### 🔀 n8n Workflow Canvas
+
+A look at the n8n automation canvas wired up with FitAI:
+
+![n8n Workflow Canvas](screenshots/IMG-20260317-WA0036.jpg)
+
 ### What you can automate with n8n
 
 | Workflow | Description |
